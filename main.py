@@ -5,7 +5,7 @@ from statsmodels.tsa.stattools import adfuller
 from statsmodels.tsa.arima.model import ARIMA
 
 # Load your data from the CSV file
-data = 'C:\\Users\\MILAN\\OneDrive\\Desktop\\a.csv'
+data = 'give ur csv file path here'
 
 # Create a DataFrame from the data
 df = pd.read_csv(data, parse_dates=['Date'], index_col='Date')
